@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Author and description -->
+    <meta name="author" content="Brayan Miza" />
+    <meta
+      name="description"
+      content="This is my solution to the NFT preview card component challenge on Frontend Mentor"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <h1 class="visually-hidden">Article preview component</h1>
+      <article class="card">
+        <div class="card__img-container">
+          <img class="card__img" src="./images/drawers.jpg" alt="" />
+        </div>
+        <div class="card__info">
+          <h2 class="card__info-title">
+            Shift the overall look and feel by adding these wonderful touches to
+            furniture in your home
+          </h2>
+          <p class="card__info-description">
+            Ever been in a room and felt like something was missing? Perhaps it
+            felt slightly bare and uninviting. I’ve got some simple tips to help
+            you make any room feel complete.
+          </p>
+          <div class="card__designer">
+            <div class="card__designer-description-container">
+              <img
+                class="card__designer-avatar"
+                src="./images/avatar-michelle.jpg"
+                alt="A portrait of Michelle Appleton."
+              />
+              <div>
+                <p class="card__designer-designer">Michelle Appleton</p>
+                <p class="card__designer-date">28 Jun 2020</p>
+              </div>
+            </div>
+            <button aria-label="Share." class="card__share-btn">
+              <img src="./images/icon-share.svg" alt="" aria-hidden="true" />
+            </button>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.frontendmentor.io/profile/bramizdev" target="_blank"
+        >@bramizdev</a
+      >.
+    </footer>
+  </body>
+</html>

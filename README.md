@@ -57,4 +57,4 @@ Users should be able to:
 ## Author
 
 - Website - [@bramizdev](https://github.com/bramizdev)
-- Frontend Mentor - [@bramizdev](https://www.frontendmentor.io/pr
+- Frontend Mentor - [@bramizdev](https://www.frontendmentor.io/profile/bramizdev)
